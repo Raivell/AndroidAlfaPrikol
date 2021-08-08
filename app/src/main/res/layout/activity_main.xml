@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/lodo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="320sp"
+        android:layout_marginHorizontal="35sp"
+        android:backgroundTint="@color/teal_700"
+        android:inputType="textPersonName"
+        android:textColor="@color/textcolor"
+        android:textColorHint="@color/textcolorhint"
+        android:hint="@string/hint_user" />
+    <Button
+        android:id="@+id/main_btn"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/user_field"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginHorizontal="40sp"
+        android:text="@string/btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="27sp" />
+
+</RelativeLayout>
