@@ -3,4 +3,5 @@
     <string name="lodo">Твоя погода</string>
     <string name="hint_user">Введите город</string>
     <string name="btn_main">Узнать погоду</string>
+    <string name="no_input_user">Введите название города</string>
 </resources>

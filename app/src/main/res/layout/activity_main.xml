@@ -44,12 +44,42 @@
         />
 
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/result_inf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="150sp"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="27sp" />
+    <TextView
+        android:id="@+id/result_inf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="200sp"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="27sp" />
+    <TextView
+        android:id="@+id/result_inf3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
         android:fontFamily="@font/montserrat_bold"
         android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="27sp" />
+    <TextView
+        android:id="@+id/result_inf4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="100sp"
         android:textAlignment="center"
         android:textColor="@color/textcolor"
         android:textSize="27sp" />
